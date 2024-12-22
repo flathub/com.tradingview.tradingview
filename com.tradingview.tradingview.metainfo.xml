@@ -27,6 +27,7 @@
     <category>Finance</category>
   </categories>
   <releases>
+    <release version="2.9.4-1" date="2024-12-12" />
     <release version="2.9.3-1" date="2024-11-06" />
   </releases>
   <content_rating type="oars-1.1">
