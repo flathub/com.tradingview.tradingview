@@ -27,8 +27,11 @@
     <category>Finance</category>
   </categories>
   <releases>
-    <release version="2.9.4-1" date="2024-12-12" />
-    <release version="2.9.3-1" date="2024-11-06" />
+    <release version="2.9.5-1" date="2025-02-13">
+      <description></description>
+    </release>
+    <release version="2.9.4-1" date="2024-12-12"/>
+    <release version="2.9.3-1" date="2024-11-06"/>
   </releases>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">intense</content_attribute>
