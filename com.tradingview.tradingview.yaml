@@ -1,9 +1,9 @@
 id: com.tradingview.tradingview
 runtime: org.freedesktop.Platform
-runtime-version: "24.08"
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "24.08"
+base-version: '24.08'
 separate-locales: false
 command: tradingview
 
@@ -28,7 +28,8 @@ modules:
     sources:
       - type: script
         commands:
-          - bsdtar -O -xf tradingview_amd64.deb data.* | bsdtar --no-same-owner -xf -
+          - bsdtar -O -xf tradingview_amd64.deb data.* | bsdtar --no-same-owner -xf
+            -
           - mv opt/TradingView tradingview
           - rm -rf tradingview_amd64.deb etc usr opt
         dest-filename: apply_extra
@@ -44,12 +45,12 @@ modules:
 
       - type: file
         path: com.tradingview.tradingview.desktop
-        
+
       - type: extra-data
         filename: tradingview_amd64.deb
-        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.9.4-1_amd64.deb
-        sha256: f800e7da60842d417b1a2ef56857ceae0c7d5a0adfbdd7dc1d51cf600b9ef1ce
-        size: 91354932
+        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.9.5-1_amd64.deb
+        sha256: 906deb99db2947474a792f80195a646784b34b9c1909b16e8477417efc215943
+        size: 91367082
         x-checker-data:
           type: debian-repo
           package-name: tradingview
