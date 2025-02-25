@@ -18,17 +18,16 @@
       <caption>bundles</caption>
       <image>https://static.tradingview.com/static/bundles/make-it-easy-desktop.5595247b873f7ad44e06.png</image>
     </screenshot>
-    <screenshot>
-      <caption>financial analysis</caption>
-      <image>https://static.tradingview.com/static/bundles/financial-analysis-illustration.e864e44a4b1d43a69071.svg</image>
-    </screenshot>
   </screenshots>
   <categories>
     <category>Finance</category>
   </categories>
   <releases>
-    <release version="2.9.5-1" date="2025-02-13">
+    <release version="2.9.6-1" date="2025-02-25">
       <description></description>
+    </release>
+    <release version="2.9.5-1" date="2025-02-13">
+      <description/>
     </release>
     <release version="2.9.4-1" date="2024-12-12"/>
     <release version="2.9.3-1" date="2024-11-06"/>
