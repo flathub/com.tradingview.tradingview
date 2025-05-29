@@ -10,12 +10,16 @@ command: tradingview
 finish-args:
   - --share=ipc
   - --share=network
-  - --socket=fallback-x11
-  - --socket=wayland
   - --socket=pulseaudio
+  - --sockets=system-bus
   - --device=all
   # Files
   - --filesystem=xdg-download:ro
+  # wayland
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --env=ELECTRON_OZONE_PLATFORM_HINT=wayland
+  
 
 modules:
   - name: tradingview
