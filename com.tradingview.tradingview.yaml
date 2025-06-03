@@ -18,7 +18,7 @@ finish-args:
   - --socket=fallback-x11
   - --socket=wayland
   - --env=ELECTRON_OZONE_PLATFORM_HINT=wayland
-  
+
 
 modules:
   - name: tradingview
@@ -52,9 +52,9 @@ modules:
 
       - type: extra-data
         filename: tradingview_amd64.deb
-        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.10.0-1_amd64.deb
-        sha256: 70ae5ac6635e365d5a50ff7a74abd9f27d1dbfd5bbc631a478eadb89a23222f6
-        size: 91246934
+        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.11.0-1_amd64.deb
+        sha256: 52256141100ec4b34ad3eb96378f12ffc044d1fb88074bceb39cd33ba932c26f
+        size: 91256492
         x-checker-data:
           type: debian-repo
           package-name: tradingview
