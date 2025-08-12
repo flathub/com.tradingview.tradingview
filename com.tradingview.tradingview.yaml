@@ -1,9 +1,9 @@
 id: com.tradingview.tradingview
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: "24.08"
 separate-locales: false
 command: tradingview
 
@@ -14,11 +14,7 @@ finish-args:
   - --device=all
   # Files
   - --filesystem=xdg-download:ro
-  # wayland
-  - --socket=fallback-x11
-  - --socket=wayland
-  - --env=ELECTRON_OZONE_PLATFORM_HINT=wayland
-
+  - --socket=x11
 
 modules:
   - name: tradingview
