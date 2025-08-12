@@ -1,9 +1,9 @@
 id: com.tradingview.tradingview
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: "24.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '24.08'
+base-version: "24.08"
 separate-locales: false
 command: tradingview
 
@@ -14,11 +14,7 @@ finish-args:
   - --device=all
   # Files
   - --filesystem=xdg-download:ro
-  # wayland
-  - --socket=fallback-x11
-  - --socket=wayland
-  - --env=ELECTRON_OZONE_PLATFORM_HINT=wayland
-
+  - --socket=x11
 
 modules:
   - name: tradingview
@@ -52,9 +48,9 @@ modules:
 
       - type: extra-data
         filename: tradingview_amd64.deb
-        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.11.0-1_amd64.deb
-        sha256: 52256141100ec4b34ad3eb96378f12ffc044d1fb88074bceb39cd33ba932c26f
-        size: 91256492
+        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-2.12.0-1_amd64.deb
+        sha256: 27d0befd5fc308c94328ca8f5caa289ea95efb4bbd81d9baa40f27d0eb24275d
+        size: 89553518
         x-checker-data:
           type: debian-repo
           package-name: tradingview
