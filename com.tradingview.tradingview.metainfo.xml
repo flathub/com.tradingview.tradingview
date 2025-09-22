@@ -23,8 +23,11 @@
     <category>Finance</category>
   </categories>
   <releases>
-    <release version="2.12.0-1" date="2025-08-12">
+    <release version="2.13.0-1" date="2025-09-22">
       <description></description>
+    </release>
+    <release version="2.12.0-1" date="2025-08-12">
+      <description/>
     </release>
     <release version="2.11.0-1" date="2025-06-03">
       <description/>
