@@ -14,7 +14,7 @@ finish-args:
   - --device=all
   # Files
   - --filesystem=xdg-download:ro
-  - --socket=x11
+  - --socket=wayland
 
 modules:
   - name: tradingview
