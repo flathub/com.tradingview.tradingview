@@ -10,7 +10,6 @@
   <url type="homepage">https://tradingview.com/</url>
   <url type="help">https://www.tradingview.com/support/</url>
   <description>
-    <p>**NOTE: This wrapper is NOT verified by, affiliated with, or supported by TradingView.**</p>
     <p>TradingView is a social media network, analysis platform and mobile app for traders and investors. 
       The platform provides access to market data with a focus on charts, allowing users to do technical analysis.</p>
   </description>
