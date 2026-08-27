@@ -23,8 +23,11 @@
     <category>Finance</category>
   </categories>
   <releases>
-    <release version="3.3.0-1" date="2026-07-02">
+    <release version="3.4.0-1" date="2026-08-27">
       <description></description>
+    </release>
+    <release version="3.3.0-1" date="2026-07-02">
+      <description/>
     </release>
     <release version="3.2.0-1" date="2026-06-03">
       <description/>
