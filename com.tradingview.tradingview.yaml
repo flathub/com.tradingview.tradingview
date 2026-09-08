@@ -49,9 +49,9 @@ modules:
 
       - type: extra-data
         filename: tradingview_amd64.deb
-        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-3.3.0-1_amd64.deb
-        sha256: d560cf9ea0c14c3949c24a5b8b62d26bc39b99e2a1f6ec4c8207245a9001ee49
-        size: 128249270
+        url: https://tvd-packages.tradingview.com/ubuntu/stable/pool/multiverse/t/tradingview/jammy/tradingview-3.4.1-1_amd64.deb
+        sha256: ec381f4239db177e1f3d9bed151a635c4ec56b5c3780ebd1b18a63657806c868
+        size: 133040714
         x-checker-data:
           type: debian-repo
           package-name: tradingview
